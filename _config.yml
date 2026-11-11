@@ -1,0 +1,18 @@
+title: Bennny's Site
+description: A fresh Jekyll 4 site
+baseurl: ""
+url: "https://bennny1987.github.io"
+
+theme: null
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
